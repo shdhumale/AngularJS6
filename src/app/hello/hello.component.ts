@@ -85,6 +85,7 @@ export class HelloComponent implements OnInit {
     }
   }
 
+  //this is now not used any more in the project
   funtion getmyArray()
   {
     return [
