@@ -24,7 +24,6 @@ getData()
       online:"true"
     }      
   ]*/
-  return this.myHtpClient.get('http://localhost:2303/');
+  return this.myHtpClient.get('/api');
 }
-
 }

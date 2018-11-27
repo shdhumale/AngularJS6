@@ -86,7 +86,7 @@ export class HelloComponent implements OnInit {
   }
 
   //this is now not used any more in the project
-  funtion getmyArray()
+ /*  funtion getmyArray()
   {
     return [
       {
@@ -106,6 +106,6 @@ export class HelloComponent implements OnInit {
         online:"true"
       }
     ]
-  }
+  } */
 }
 

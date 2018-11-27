@@ -103,7 +103,7 @@ export class AppComponent implements OnChanges {
 
   for (let index = 0; index < args.length; index++) {
     // const element = array[index];
-    console.log('index', args[index]);
+    console.log('index', args[index]); 
   }
 
   // return a * b;
