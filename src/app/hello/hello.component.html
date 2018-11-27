@@ -1,0 +1,44 @@
+<!-- <p>
+  This is my own custom components....
+ 
+</p> -->
+
+<!-- {{bitWise}}
+{{add(5,6)}}
+-->
+<!-- <input type="text" value="myVar">
+</input> -->
+<!--  {{add(5,6)}}
+<input type="text" value="{{add(5,6)}}" [disabled]="returnDiable()"/>
+
+<button (click)="myFunction()"> hello there this is button
+  </button>
+
+
+  <input type="text" [(ngModel)]="myText" />
+  {{myText}}  -->
+
+<table>
+  <tr>
+      <td>
+          Sr No
+        </td>
+    <td>
+      Name
+    </td>
+    <td>
+        Online
+      </td>
+  </tr>
+
+  <tr *ngFor="let item of myArrayData, let myIndex = index, let oddRecord = odd, let evenRecord=even, let firstRecord=first, let lastRecord = last" [ngClass]="{'oddClass': oddRecord, 'evenClass':evenRecord, 'firstClass':firstRecord, 'lastClass':lastRecord}">
+    <td>{{myIndex+1}}</td>
+    <td>{{item.name}}</td>
+    <td>{{item.online}}</td>
+  </tr>
+</table>
+
+
+
+
+
