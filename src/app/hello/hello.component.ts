@@ -45,7 +45,6 @@ export class HelloComponent implements OnInit {
    this.myService.getData().subscribe(data => {
      //this will populate data on the screen. 
         this.myArrayData = data;
-
     });
   }
 
