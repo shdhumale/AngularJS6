@@ -13,7 +13,7 @@ export class HelloComponent implements OnInit {
   bitWise = 2 | 5;
   myVar = "SiddhuVar";
   myDisableValue = false;
-  myText = "SiddhuText";
+  myText = "SiddhuTextChanged";
   myArrayData = [];
   /* myArrayData = [
     {
