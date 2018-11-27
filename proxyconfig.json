@@ -3,5 +3,5 @@
         "target":"http://localhost:2303/",
         "secure":false,
         "changeOrigin":true 
-    }
+	}
 }
