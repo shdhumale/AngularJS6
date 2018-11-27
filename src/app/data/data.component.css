@@ -1,0 +1,16 @@
+tr.oddClass
+{
+    border: red;
+    background: purple;
+}
+
+tr.evenClass
+{
+border: green;
+background: grey;
+}
+tr.firstClass
+{
+    border: orange;
+    background: pink;
+}
