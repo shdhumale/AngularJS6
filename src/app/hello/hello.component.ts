@@ -14,7 +14,7 @@ export class HelloComponent implements OnInit {
   myVar = "SiddhuVar";
   myDisableValue = false;
   myText = "SiddhuTextChangedOne";
-  myArrayData = [];
+  //myArrayData = [];
   /* myArrayData = [
     {
       name:"sidd1",
@@ -42,10 +42,10 @@ export class HelloComponent implements OnInit {
   }
 
   ngOnInit() {
-   this.myService.getData().subscribe(data => {
+   /* this.myService.getData().subscribe(data => {
      //this will populate data on the screen. 
         this.myArrayData = data;
-    });
+    }); */
   }
 
   add(a, b) {
